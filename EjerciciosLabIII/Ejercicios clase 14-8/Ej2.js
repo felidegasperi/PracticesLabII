@@ -1,3 +1,6 @@
+// Crear un arreglo de nombres a partir del arreglo anterior pero solo para las
+// personas mayores de 20 años y menores de 29.
+
 let input = [
   { name: "John", age: 21, city: "New York" },
   { name: "Mike", age: 28, city: "Moscow" },
@@ -8,8 +11,8 @@ let input = [
 
 const returnTheNames = (inputValue) => {
   return inputValue
-    .map((item) => item.age)
-    .filter((item) => item > 20 && item < 29);
+    .filter((item) => item.age > 20 && item.age < 29)
+    .map((item) => item.name);
 };
 
 console.log(returnTheNames(input));

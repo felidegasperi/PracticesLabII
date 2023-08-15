@@ -1,3 +1,5 @@
+// Crear un arreglo de nombres a partir del siguiente input
+
 let input = [
   { name: "John", age: 21, city: "New York" },
   { name: "Mike", age: 28, city: "Moscow" },

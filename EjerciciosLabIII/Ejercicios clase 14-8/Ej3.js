@@ -1,3 +1,7 @@
+// Dado un arreglo de objetos de países que poseen dos propiedades: name y
+// population, ordenarlos de mayor a menor en cuanto a su población utilizando la
+// función de arreglo sort().
+
 let cities = [
   { name: "Argentina", population: 50000000 },
   { name: "Brazil", population: 120000000 },
