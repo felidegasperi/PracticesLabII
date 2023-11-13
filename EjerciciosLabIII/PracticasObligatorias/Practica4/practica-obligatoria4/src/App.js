@@ -20,9 +20,9 @@ function App() {
           setButton={setButton}
           setLogin={setLogin}
           login={login}
-          inputRef={inputRef}
           setItems={setItems}
           items={items}
+          inputRef={inputRef}
         />
       ) : (
         <button onClick={buttonHandler}>Iniciar Sesion</button>

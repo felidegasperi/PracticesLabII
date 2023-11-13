@@ -33,7 +33,6 @@ const Login = ({ setButton, setLogin, login, inputRef, items, setItems }) => {
           setItems={setItems}
           items={items}
           setLogin={setLogin}
-          username={username}
           setButton={setButton}
         />
       ) : (
